@@ -1,0 +1,726 @@
+{
+  "brand": {
+    "name": "HANSOLL WHITE HILL",
+    "subName": "평창연수원 리모델링 REVEAL",
+    "companyName": "HANSOLL",
+    "copyright": "© 2026 HANSOLL. ALL RIGHTS RESERVED."
+  },
+  "intro": {
+    "chapterTag": "CHAPTER 01 • INTRO",
+    "buildingName": "[평창연수원_화이트힐]",
+    "titleLine1": "이",
+    "titleLine2": "새로운 모습으로 바뀝니다.",
+    "description": "편의성은 높이고, 공간이 주는 편안함은 높였습니다.\n전용면적 116.47㎡ 의 넓은 공간으로, 가족과 함께 특별한 추억을 \n만드세요.",
+    "scrollButtonText": "SCROLL TO DISCOVER",
+    "videoUrl": "/assets/videos/intro_bg.mp4",
+    "bgImageUrl": "",
+    "bgMode": "video"
+  },
+  "floorplan": {
+    "chapterTag": "CHAPTER 02 • FLOOR PLAN",
+    "title": "",
+    "subtitle": "HANSOLL WHITE HILL ARCHITECTURAL BLUEPRINT",
+    "description": "평창연수원의 2D 도면입니다.",
+    "imageUrl": "",
+    "steps": [
+      {
+        "step": 1,
+        "code": "01",
+        "title": "건물 외곽선 및 축선 체계",
+        "subtitle": "AXIS & STRUCTURAL FOOTPRINT",
+        "description": "14.4m 가로 축과 10.4m 세로 축을 바탕으로 한솔(HANSOLL) 평창연수원 화이트힐의 견고한 구조적 외곽 라인이 드러납니다."
+      },
+      {
+        "step": 2,
+        "code": "02",
+        "title": "주요 공간 조닝 분할",
+        "subtitle": "SPATIAL ZONING & CIRCULATION",
+        "description": "중앙 라운지를 중심으로 3개의 독립 스위트룸, 웰니스 바스, 전용 테라스가 효율적이고 유기적으로 조닝됩니다."
+      },
+      {
+        "step": 3,
+        "code": "03",
+        "title": "건축 벽체 및 개구부 전개",
+        "subtitle": "WALLS, FENESTRATION & ACCESS",
+        "description": "차음 성능이 강화된 내벽체, 채광을 극대화한 와이드 창호, 프라이버시를 고려한 도어 개폐 동선이 확립됩니다."
+      },
+      {
+        "step": 4,
+        "code": "04",
+        "title": "컬러 텍스처 및 마감재 레이아웃",
+        "subtitle": "SURFACE FINISHES & MATERIALS",
+        "description": "원목 플로어의 온기, 타일 테라스의 견고함, 침실의 차분한 소프트 톤이 2D 컬러 평면도 위에 입체적으로 실체화됩니다."
+      },
+      {
+        "step": 5,
+        "code": "05",
+        "title": "인터랙티브 공간 탐색 핫스팟",
+        "subtitle": "INTERACTIVE SPATIAL HOTSPOTS",
+        "description": "평면도 위의 각 공간을 직접 터치하고 탐험할 수 있는 디지털 인터랙션 레이어가 완성됩니다."
+      }
+    ]
+  },
+  "spaces": {
+    "chapterTag": "CHAPTER 03 • SPACES",
+    "title": "공간탐색",
+    "subtitle": "리모델링 후 완성된 핵심 공간들의 내부 촬영한 현장 사진입니다. 360° 파노라마로 둘러보세요.",
+    "items": [
+      {
+        "id": "lounge",
+        "spaceNumber": "01",
+        "name": "Main Entrance",
+        "koreanName": "현관입구",
+        "category": "LIVING",
+        "tagline": "새롭게 만나는 평창연수원, 첫인상부터 달라졌습니다.",
+        "description": "평창연수원의 새로운 시작을 알리는 공간입니다. 오래된 현관의 문과 신발장 도어를 교체하고, 3연동 슬림 중문을 적용해 한층 깔끔하고 세련된 분위기를 완성했습니다.",
+        "architecturalHighlights": [
+          "3연동 슬림도어 중문 교체",
+          "현관 신발장 도어 교체",
+          "노후 문틀과 문짝 교체로 깔끔한 첫인상",
+          ""
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 27.2,
+          "y": 51.9,
+          "width": 44,
+          "height": 28
+        },
+        "connectedSpaceIds": [
+          "space-1789113834105",
+          "space-1789438590283",
+          "space-1789115108190"
+        ],
+        "panoramaUrl": null,
+        "panoramaHotspots": [
+          {
+            "id": "lounge-to-entry",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 121,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1789458967290",
+            "targetSpaceId": "space-1789438590283",
+            "label": "거실화장실 이동",
+            "yaw": 60,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790662823079",
+            "targetSpaceId": "space-1789115108190",
+            "label": "주방&부엌 이동",
+            "yaw": 210,
+            "pitch": -1
+          }
+        ]
+      },
+      {
+        "id": "space-1789113834105",
+        "spaceNumber": "02",
+        "name": "living room",
+        "koreanName": "거실",
+        "category": "LIVING",
+        "tagline": "함께 머물고, 함께 이야기하는 평창연수원의 중심 공간",
+        "description": "가족과 동료가 함께 모이는 평창연수원의 중심 공간입니다. 벽과 천정을 친환경 실크벽지로 새롭게 마감하고, LED 조명과 6인용 식탁 2개를 배치해 휴식과 식사, 소통이 모두 가능한 공간으로 새롭게 구성했습니다. ",
+        "architecturalHighlights": [
+          "친환경 실크벽지로 벽체 및 천정 전체 리뉴얼",
+          "LED 조명 교체로 밝은 분위기 조성",
+          "6인용 식탁 배치로 현대식 단체 이용 편의성 강화"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 49.6,
+          "y": 65.6,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789438590283",
+          "lounge",
+          "space-1789115108190",
+          "space-1789437308776",
+          "space-1789437424297",
+          "space-1789438050846",
+          "space-1789438184816"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1789452995368",
+            "targetSpaceId": "space-1789438590283",
+            "label": "거실 화장실",
+            "yaw": 330,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1789453013916",
+            "targetSpaceId": "lounge",
+            "label": "현관입구",
+            "yaw": 300,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1789453028935",
+            "targetSpaceId": "space-1789115108190",
+            "label": "주방&부엌",
+            "yaw": 256,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790663277633",
+            "targetSpaceId": "space-1789437308776",
+            "label": "거실 발코니 이동",
+            "yaw": 163,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790663531311",
+            "targetSpaceId": "space-1789437424297",
+            "label": "침실1 이동",
+            "yaw": 100,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790663946921",
+            "targetSpaceId": "space-1789438050846",
+            "label": "침실2 이동",
+            "yaw": 27,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790663998439",
+            "targetSpaceId": "space-1789438184816",
+            "label": "침실3 이동",
+            "yaw": 349,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789115108190",
+        "spaceNumber": "03",
+        "name": "kitchen",
+        "koreanName": "주방&부엌",
+        "category": "LIVING",
+        "tagline": "함께 준비하고 함께 즐기는, 더 편리해진 주방",
+        "description": "여럿이 함께 이용하는 연수원 공간에 맞춰 주방의 실용성과 편의성을 높였습니다. 기존 싱크대와 후드를 교체하고, 노후됐던 아일랜드 식탁을 철거해 보다 넓고 효율적인 조리 공간을 마련했습니다.",
+        "architecturalHighlights": [
+          "싱크대(상부장) 교체 및 구성 개선",
+          "침니후드 교체",
+          "아일랜드 철거 및 6인용 식탁 배치"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 20.2,
+          "y": 71,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789437192879",
+          "space-1789113834105"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664179116",
+            "targetSpaceId": "space-1789437192879",
+            "label": "주방 다용도실 이동",
+            "yaw": 195,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790664233276",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 79,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789437192879",
+        "spaceNumber": "04",
+        "name": "kitchen utility room",
+        "koreanName": "주방 다용도실",
+        "category": "LIVING",
+        "tagline": "작은 공간까지 꼼꼼하게, 생활의 편리함을 높였습니다.",
+        "description": "다용도실입니다. 창호(샷시)를 2중창으로 교체했습니다.",
+        "architecturalHighlights": [
+          "기존 창호(샷시) 2중창으로 교체",
+          "주방과 연계된 실용적인 보조 공간",
+          "노후 시설 개선을 통한 공간 완성도 향상"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 16.3,
+          "y": 89.6,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789115108190"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664357909",
+            "targetSpaceId": "space-1789115108190",
+            "label": "주방&부엌 이동",
+            "yaw": 13,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789437308776",
+        "spaceNumber": "05",
+        "name": "living room balcony",
+        "koreanName": "거실 발코니",
+        "category": "LIVING",
+        "tagline": "실내의 편안함에서 자연을 만나는 여유까지",
+        "description": "거실과 연결되는 개방감 있는 공간입니다. 바닥 타일과 벽체 천정을 새롭게 정비하고, 기존에 발코니(201/301호)에 설치되어 있던 에어컨 실외기를 이동해 공간 활용성과 깔끔한 외관을 개선했습니다.",
+        "architecturalHighlights": [
+          "발코니 바닥 타일 교체",
+          "벽체 천정 수성페인트 마감",
+          "에어컨 실외기 이전으로 공간 활용성 개선"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 41.4,
+          "y": 89.3,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789113834105",
+          "space-1789437424297",
+          "space-1789115108190"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664446209",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 344,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790664500627",
+            "targetSpaceId": "space-1789437424297",
+            "label": "침실1 이동",
+            "yaw": 52,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790665248475",
+            "targetSpaceId": "space-1789115108190",
+            "label": "주방&부엌 이동",
+            "yaw": 301,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789437424297",
+        "spaceNumber": "06",
+        "name": "main bedroom",
+        "koreanName": "침실1",
+        "category": "SUITE",
+        "tagline": "하루의 피로를 내려놓는 편안한 휴식의 공간",
+        "description": "아늑하고 넓은 안방입니다. 벽체와 천정은 친환경 실크벽지로 교체하였습니다. LED 전등으로 환하게 바뀌었습니다. ",
+        "architecturalHighlights": [
+          "친환경 실크벽지로 벽체천정 리뉴얼",
+          "노후된 문틀과 문짝 교체",
+          "파우더룸과 연결되는 편리한 공간 구성"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 70.9,
+          "y": 69.9,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789437794381",
+          "space-1789113834105"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664550622",
+            "targetSpaceId": "space-1789437794381",
+            "label": "침실1 파우더룸 이동",
+            "yaw": 15,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790664593656",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 282,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789437794381",
+        "spaceNumber": "07",
+        "name": "main powder room",
+        "koreanName": "침실1 파우더룸",
+        "category": "SERVICE",
+        "tagline": "더 깔끔하게, 더 넓게 사용하는 나만의 준비 공간",
+        "description": "안방 침실1에 연결된 독립적인 준비 공간입니다. 기존 파우더룸 중간 문을 철거하고, 옷장 도어를 새롭게 교체해 개방감을 높이고 보다 깔끔한 공간으로 정비했습니다.",
+        "architecturalHighlights": [
+          "파우더룸 중간 문 철거",
+          "기존 도어 교체",
+          "침실과 자연스럽게 연결되는 개방형 동선",
+          "여러대의 유틸리티 기구 사용을 위한 콘센트 추가"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 75.8,
+          "y": 49.7,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789437950522",
+          "space-1789437424297"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790663745748",
+            "targetSpaceId": "space-1789437950522",
+            "label": "침실1 화장실 이동",
+            "yaw": 6,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790663823873",
+            "targetSpaceId": "space-1789437424297",
+            "label": "침실1 이동",
+            "yaw": 190,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789437950522",
+        "spaceNumber": "08",
+        "name": "mainroom bathroom",
+        "koreanName": "침실1 화장실",
+        "category": "SERVICE",
+        "tagline": "호텔처럼 깔끔하게, 매일 사용하는 공간까지 새롭게",
+        "description": "침실1에 연결된 전용 욕실입니다. 벽체와 바닥 타일을 새롭게 교체하고 대변기, 세면기 등을 교체했습니다. 기존 욕조 대신 유리 칸막이를 적용해 보다 현대적이고 실용적인 욕실로 완성했습니다. ",
+        "architecturalHighlights": [
+          "벽체 및 바닥 타일 전면 교체",
+          "대변기, 세면기, 수전 교체",
+          "욕조 철거 및 샤워부스 유리 칸막이 설치"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 76.1,
+          "y": 32.2,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789437794381"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664673353",
+            "targetSpaceId": "space-1789437794381",
+            "label": "침실1 파우더룸 이동",
+            "yaw": 179,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789438050846",
+        "spaceNumber": "09",
+        "name": "bedroom2",
+        "koreanName": "침실2",
+        "category": "SUITE",
+        "tagline": "편안한 휴식에 집중할 수 있도록, 공간을 새롭게",
+        "description": "아늑한 두번째 방입니다. 벽체, 천정 실크벽지로 탈바꿈했고, 조명도 LED 교체되었습니다. (붙박이장이 별도로 있습니다.)",
+        "architecturalHighlights": [
+          "친환경 실크벽지로 벽체 천정 리뉴얼",
+          "노후된 문틀과 문짝 교체",
+          "기존 옷장 도어 교체"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 57.5,
+          "y": 35.2,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789438141904",
+          "space-1789113834105"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664723323",
+            "targetSpaceId": "space-1789438141904",
+            "label": "침실2 발코니 이동",
+            "yaw": 5,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790664796816",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 201,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789438141904",
+        "spaceNumber": "10",
+        "name": "bedroom2 balcony",
+        "koreanName": "침실2 발코니",
+        "category": "LIVING",
+        "tagline": "침실에 더해진 작은 여유, 한층 쾌적해진 발코니",
+        "description": "침실2와 연결되어 휴식의 여유를 더해주는 발코니입니다. 바닥 타일을 새롭게 교체하고, 벽체와 천정을 수성페인트로 마감해 전체적인 공간의 완성도를 높였습니다.",
+        "architecturalHighlights": [
+          "발코니 바닥 타일 교체",
+          "벽체 천정 수성페인트 마감",
+          "침실과 자연스럽게 연결되는 휴식 공간"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 57.9,
+          "y": 18.1,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789438050846"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664834565",
+            "targetSpaceId": "space-1789438050846",
+            "label": "침실2 이동",
+            "yaw": 183,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789438184816",
+        "spaceNumber": "11",
+        "name": "bedroom3",
+        "koreanName": "침실3",
+        "category": "SUITE",
+        "tagline": "편안함을 더하고, 오래된 공간의 느낌은 덜어냈습니다.",
+        "description": "평창연수원의 세 번째 침실 역시 전체적인 공간 분위기에 맞춰 새롭게 정비했습니다. 친환경 실크벽지와 새로운 문을 적용해 밝고 깔끔한 휴식 공간으로 탈바꿈했습니다.",
+        "architecturalHighlights": [
+          "친환경 실크벽지로 벽체 천정 리뉴얼",
+          "노후된 문틀과 문짝 교체",
+          "깔끔하고 편안한 숙박 환경 조성"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 39.5,
+          "y": 23.2,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789438516764",
+          "space-1789113834105"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664890787",
+            "targetSpaceId": "space-1789438516764",
+            "label": "침실3 발코니 이동",
+            "yaw": 0,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1790664942249",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 161,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789438516764",
+        "spaceNumber": "12",
+        "name": "bedroom3 balcony",
+        "koreanName": "침실3 발코니",
+        "category": "LIVING",
+        "tagline": "머무는 공간의 끝까지, 새로움을 더했습니다.",
+        "description": "침실3에서 이어지는 발코니 공간도 새롭게 정비했습니다. 바닥 타일과 벽체 천정을 새롭게 마감해 침실과 조화를 이루는 깔끔한 공간으로 완성했습니다.",
+        "architecturalHighlights": [
+          "발코니 바닥 타일 교체",
+          "벽체 천정 수성페인트 마감",
+          "침실과 조화를 이루는 깔끔한 마감"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 39.9,
+          "y": 7.4,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789438184816"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790664981326",
+            "targetSpaceId": "space-1789438184816",
+            "label": "침실3 이동",
+            "yaw": 180,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1789438590283",
+        "spaceNumber": "13",
+        "name": "bathroom",
+        "koreanName": "거실화장실",
+        "category": "LIVING",
+        "tagline": "누구나 편안하게 사용하는, 새롭게 단장한 공용 욕실",
+        "description": "거실에서 누구나 편리하게 이용할 수 있는 공용 화장실입니다. 벽체와 바닥 타일을 새롭게 교체하고 대변기, 세면기, 수전까지 교체해 보다 깔끔하고 쾌적한 욕실 환경을 마련했습니다.",
+        "architecturalHighlights": [
+          "벽체 및 바닥 타일 교체",
+          "대변기, 세면기, 수전 교체",
+          "공용 공간에 맞춘 깔끔하고 편리한 구성"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 36.6,
+          "y": 39.7,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789113834105",
+          "space-1789438184816",
+          "lounge"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1790665039170",
+            "targetSpaceId": "space-1789113834105",
+            "label": "거실 이동",
+            "yaw": 148,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1791342456463",
+            "targetSpaceId": "space-1789438184816",
+            "label": "침실3 이동",
+            "yaw": 10,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1791342700813",
+            "targetSpaceId": "lounge",
+            "label": "현관입구 이동",
+            "yaw": 220,
+            "pitch": 0
+          }
+        ]
+      },
+      {
+        "id": "space-1790749443047",
+        "spaceNumber": "14",
+        "name": "ROOm1 balcony",
+        "koreanName": "침실1 발코니",
+        "category": "LIVING",
+        "tagline": "발코니입니다.",
+        "description": "거실 발코니와 연결된 공간입니다. ",
+        "architecturalHighlights": [
+          "외부와 연결된 넓은 발코니",
+          "많은 짐을 보관할 수 있는 넓은 공간"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 70.7,
+          "y": 90.6,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "space-1789437424297",
+          "space-1789437308776"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1791774753984",
+            "targetSpaceId": "space-1789437424297",
+            "label": "침실1 이동",
+            "yaw": 0,
+            "pitch": 0
+          },
+          {
+            "id": "hs-1791774943881",
+            "targetSpaceId": "space-1789437308776",
+            "label": "거실 발코니 이동",
+            "yaw": 270,
+            "pitch": -6
+          }
+        ]
+      },
+      {
+        "id": "space-1791774586339",
+        "spaceNumber": "15",
+        "name": "301 duplex",
+        "koreanName": "301호 복층",
+        "category": "LIVING",
+        "tagline": "301호 만의 특별한 공간 복층입니다. ",
+        "description": "301호에서 사용할 수 있는 복층 공간입니다. 개별 거실과 화장실이 있습니다.",
+        "architecturalHighlights": [
+          "개별 화장실 보유",
+          "넓고 쾌적한 단독 공간",
+          "파티룸 또는 개별 목적 사용 가능",
+          "복층 이용시 추가 2만원 (청소비)"
+        ],
+        "dimensionsCAD": "",
+        "floorplan": {
+          "x": 11.2,
+          "y": 8.8,
+          "width": 20,
+          "height": 20
+        },
+        "panoramaUrl": null,
+        "connectedSpaceIds": [
+          "lounge"
+        ],
+        "panoramaHotspots": [
+          {
+            "id": "hs-1791775033019",
+            "targetSpaceId": "lounge",
+            "label": "현관입구 이동",
+            "yaw": 143,
+            "pitch": 0
+          }
+        ]
+      }
+    ]
+  }
+}

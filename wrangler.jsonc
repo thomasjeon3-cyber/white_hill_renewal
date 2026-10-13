@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "whitehill-renovation-site",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-10-13",
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "whitehill-media"
+    }
+  ]
+}

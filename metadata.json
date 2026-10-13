@@ -1,0 +1,6 @@
+{
+  "name": "한솔섬유 평창연수원 리모델링 Digital Reveal",
+  "description": "한솔섬유 평창연수원(화이트힐) 리모델링 공간을 360° 사진으로 미리 둘러보세요.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
