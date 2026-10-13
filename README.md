@@ -8,6 +8,7 @@
 - Framework preset: Vite (또는 None)
 - Build command: `npm run build`
 - Build output directory: `dist`
+- **Deploy command: 비워 두세요** (Cloudflare Pages Git 연동은 빌드 후 Pages가 자동 배포)
 - Node.js: 20 이상 권장
 
 ## 현재 미디어
@@ -28,6 +29,13 @@ Cloudflare Pages Functions와 R2 바인딩을 위한 기본 API가 포함되어 
 5. 반환되는 `/media/<key>` URL로 공개 미디어를 제공합니다.
 
 업로드 API는 인증 토큰과 파일 형식/크기 검사를 수행합니다. 이 API는 향후 관리자 UI와 연결하기 위한 기반이며, 관리자 로그인 화면이나 게시 콘텐츠 수정/저장 API는 포함하지 않습니다. 현재 선택 사항인 방문자 전용 배포에서는 미디어를 새로 업로드할 필요 없이 기존 파일이 공개됩니다.
+
+## Cloudflare 배포 오류 해결
+
+Cloudflare Pages의 Git 연동 배포에서는 Deploy command에 `npx wrangler deploy`를 입력하지 마세요. 이 명령은 일반 Workers 배포 명령이어서 Pages의 `dist` 정적 사이트 배포와 맞지 않습니다.
+
+- Git 연동: Build command `npm run build`, Build output directory `dist`, Deploy command는 비워 둡니다.
+- 수동 CLI 배포가 필요한 경우 빌드 후 `npx wrangler pages deploy dist --project-name=whitehill-renovation-site`를 사용합니다. 프로젝트 이름이 다르면 실제 Pages 프로젝트 이름으로 바꾸세요.
 
 ## 빌드 및 로컬 확인
 
